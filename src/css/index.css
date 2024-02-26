@@ -57,12 +57,11 @@ a{
 .text-4 {
      display: none;
 }
-.play{
-  display: block;
-}
+
 @media(max-width:1000px){
   .cards{
     display: block;
+    margin-top: -5rem;
    }
   .show{
     display: block;
@@ -81,6 +80,7 @@ a{
 @media(max-width:700px){
   .cards{
     display: block;
+    margin-top: -5rem;
    }
   .show{
     display: none;
@@ -99,6 +99,7 @@ a{
 @media(max-width:500px){
   .cards{
     display: block;
+    margin-top: -5rem;
    }
   .show{
     display: block;
@@ -117,6 +118,7 @@ a{
 @media(max-width:400px){
   .cards{
     display: block;
+    margin-top: -5rem;
    }
   .show{
     display: block;
