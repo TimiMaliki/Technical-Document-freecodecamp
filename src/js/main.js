@@ -16,7 +16,7 @@ gsap.to(".featured" , {
     // x: 50,
     // duration:3,
     scrollTrigger:{
-        trigger:".menu",
+        trigger:".menu-class",
         start:"1340",
         end:"2450 center",
         markers:false,
@@ -38,7 +38,7 @@ gsap.to(".featured" , {
 
 gsap.to(".beauty" , {
     scrollTrigger:{
-        trigger:".menu",
+        trigger:".menu-class",
         start:"3340",
         end:"1450 center",
         markers:false,
@@ -74,4 +74,13 @@ gsap.to(".showcase" , {
 })
 
 
-
+gsap.to(".foot" , {
+    scrollTrigger:{
+        trigger:".menu-class",
+        start:"4240",
+        end:"5150 center",
+        markers:false,
+        scrub:9,
+        toggleClass:"white",
+    }
+})

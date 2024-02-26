@@ -64,24 +64,60 @@ a{
   .show{
     display: none;
    }
+   .black{
+    background: red !important;
+    color: #fff !important;
+  }
+  .white{
+    background: red !important;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
+  }
 }
 
 @media(max-width:700px){
   .show{
     display: none;
    }
+   .black{
+    background: red !important;
+    color: #fff !important;
+  }
+  .white{
+    background: red !important;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
+  }
 }
 
 @media(max-width:500px){
   .show{
     display: none;
    }
+   .black{
+    background: red !important;
+    color: #fff !important;
+  }
+  .white{
+    background: red !important;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
+  }
 }
 
 @media(max-width:400px){
   .show{
     display: none;
    }
+   .black{
+    background: red !important;
+    color: #fff !important;
+  }
+  .white{
+    background: red !important;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
+  }
 }
 
 
