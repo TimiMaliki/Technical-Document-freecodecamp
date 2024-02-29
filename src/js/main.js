@@ -61,8 +61,8 @@ gsap.to(".beauty" , {
 
 
 gsap.to(".showcase" , {
-    x: 20,
-    duration:5,
+    // x: 20,
+    // duration:5,
     scrollTrigger:{
         trigger:".showcase",
         start:"5",
@@ -84,3 +84,64 @@ gsap.to(".foot" , {
         toggleClass:"white",
     }
 })
+
+// gsap.(".beauty", {
+//                     scale:2
+//                 })
+
+
+
+
+
+
+
+
+
+// document.addEventListener('DOMContentLoaded', () => {
+//      const totalSlides = 7
+//     const sectionheight = (document.body.scrollHeight - window.innerHeight) /totalSlides
+//     console.log(sectionheight)
+
+//     const slides = document.querySelectorAll(".slide")
+
+//     slides.forEach((slide, index) => {
+//         gsap.to(slide, {
+//             zIndex:(progress) => {
+//                 return progress < 0.5 ? 1 : 5 - index
+//             },
+//             scrollTrigger : {
+//                 start : sectionheight * index + "top",
+//                 end : sectionheight * (index + 1) + "top",
+//                 scrub:1,
+//             }
+//         });
+
+
+//         gsap.fromTop(slide, {
+//             scale: index === 0 ? 1 : 0,
+//         },
+//         {
+//             scale: 1,
+//             scrollTrigger:{
+//                 start: sectionheight * index + " top",
+//                 end: sectionheight * (index + 1) + "top",
+//                 scrub:1
+//             },
+//         }
+//         );
+        
+//         if(index !== 0){
+//             gsap.fromTop(slide.querySelectorAll(".scale")), {
+//                 scale:2
+//             },{
+//                 scale: 1,
+//                 scrollTrigger: {
+//                     start: sectionheight * index + " top",
+//                     end: sectionheight * (index + 1) + " top",
+//                     scrub: 1,
+//                 }
+//             }
+//         }
+//     })
+
+// })
